@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>ToDo App</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="task-input">
+			<img class="task-icon icon" src="./img/bars-icon.svg" alt="">
+			<input type="text" placeholder="Добавить новую заметку">
+		</div>
+
+		<div class="controls">
+			<div class="filters">
+				<span id="all" class="active">
+					Все
+				</span>
+				<span id="pending">
+					В процессе
+				</span>
+				<span id="completed">
+					Завершены
+				</span>
+			</div>
+			<button class="clear-btn">Очистить</button>
+		</div>
+		<ul class="task-box">
+
+		</ul>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
